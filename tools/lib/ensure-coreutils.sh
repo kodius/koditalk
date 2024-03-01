@@ -72,7 +72,11 @@ ensure_coreutils() {
 
     # Else try finding a Homebrew install of coreutils,
     # and putting that on the PATH.
-    homebrew_prefix=$(brew --prefix || :)
+    # homebrew_prefix=$(brew --prefix || :)
+    #
+    homebrew_path="/opt/homebrew/bin/brew"
+    homebrew_prefix=$($homebrew_path --prefix || :)
+
     if [ -n "${homebrew_prefix}" ]; then
         # Found Homebrew.  Either use that, or if we can't then
         # print an error with Homebrew-specific instructions.
