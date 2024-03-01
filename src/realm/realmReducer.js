@@ -146,7 +146,8 @@ export default (
         mandatoryTopics: action.data.realm_mandatory_topics,
         messageContentDeleteLimitSeconds: action.data.realm_message_content_delete_limit_seconds,
         messageContentEditLimitSeconds: action.data.realm_message_content_edit_limit_seconds,
-        pushNotificationsEnabled: action.data.realm_push_notifications_enabled,
+        // pushNotificationsEnabled: action.data.realm_push_notifications_enabled,
+        pushNotificationsEnabled: true,
         pushNotificationsEnabledEndTimestamp:
           action.data.realm_push_notifications_enabled_end_timestamp ?? null,
         createPublicStreamPolicy:
@@ -256,7 +257,8 @@ export default (
               result.messageContentEditLimitSeconds = data.message_content_edit_limit_seconds;
             }
             if (data.push_notifications_enabled !== undefined) {
-              result.pushNotificationsEnabled = data.push_notifications_enabled;
+              // result.pushNotificationsEnabled = data.push_notifications_enabled;
+              result.pushNotificationsEnabled = true
             }
             if (data.push_notifications_enabled_end_timestamp !== undefined) {
               result.pushNotificationsEnabledEndTimestamp =

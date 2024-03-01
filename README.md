@@ -1,8 +1,14 @@
 # Notes
+- change brew location in file enxure-coreutils.sh
+```
+    homebrew_path="/opt/homebrew/bin/brew"
+
+```
 - start app: 
 ```
 npx react-native run-ios --simulator "iPhone 15 Pro Max"
 ```
+
 
 # Zulip Mobile
 
