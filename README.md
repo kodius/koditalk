@@ -1,3 +1,9 @@
+# Notes
+- start app: 
+```
+npx react-native run-ios --simulator "iPhone 15 Pro Max"
+```
+
 # Zulip Mobile
 
 [![CI](https://github.com/zulip/zulip-mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/zulip/zulip-mobile/actions/workflows/ci.yml?query=branch%3Amain)
