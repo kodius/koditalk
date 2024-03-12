@@ -9,6 +9,13 @@
 npx react-native run-ios --simulator "iPhone 15 Pro Max"
 ```
 
+- start andriod
+```
+1. open simlutator
+2. npx react-native start
+3. open tools/run-andriod 
+```
+
 
 # Zulip Mobile
 
