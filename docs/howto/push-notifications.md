@@ -192,14 +192,14 @@ on that is
    $ tools/setup/apns/prep-cert request /tmp/apns.key /tmp/apns.csr
    ```
 
-2. Greg is authorized in Apple Developer to upload the CSR and obtain
+2. Dino is authorized in Apple Developer to upload the CSR and obtain
    the actual certificate, so you should send `apns.csr` to him and
    ask him to do that.  He'll follow the steps at
    https://developer.apple.com/account/resources/certificates/add
    with:
    * Cert type: “Apple Push Notification service SSL (Sandbox)"
      (not "Sandbox & Production")
-   * App ID: 66KHCWMEYB.konvo.kodius.com
+   * App ID: N53842DU2C.konvo.kodius.com
 
    to obtain a certificate file `aps_development.cer`,
    and send it back to you.
