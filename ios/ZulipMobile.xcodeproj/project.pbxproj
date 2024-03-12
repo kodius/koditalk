@@ -525,7 +525,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.zulip.ZulipMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = konvo.kodius.comMobile;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -585,7 +585,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.zulip.ZulipMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = konvo.kodius.comMobile;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
