@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552649391048",
+    "project_id": "konvo-fb886",
+    "storage_bucket": "konvo-fb886.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552649391048:android:7eb95900b2dc62d7f7defd",
+        "android_client_info": {
+          "package_name": "com.kodius.konvo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz_9WNQl18ROlRu9VBuJrq3G1aHFMuTwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
