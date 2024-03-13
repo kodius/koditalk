@@ -1,4 +1,4 @@
-package com.zulipmobile;
+package com.kodius.konvo;
 
 import android.app.Application;
 import android.content.Context;
@@ -15,9 +15,9 @@ import expo.modules.ReactNativeHostWrapper;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
-import com.zulipmobile.notifications.NotificationChannelManager;
-import com.zulipmobile.notifications.NotificationsPackage;
-import com.zulipmobile.sharing.SharingPackage;
+import com.kodius.konvo.notifications.NotificationChannelManager;
+import com.kodius.konvo.notifications.NotificationsPackage;
+import com.kodius.konvo.sharing.SharingPackage;
 
 public class MainApplication extends Application implements ReactApplication {
     private final ReactNativeHost mReactNativeHost = new ReactNativeHostWrapper(
@@ -88,7 +88,7 @@ public class MainApplication extends Application implements ReactApplication {
                 We use reflection here to pick up the class that initializes Flipper,
                 since Flipper library is not available in release mode
                 */
-                Class<?> aClass = Class.forName("com.zulipmobile.ReactNativeFlipper");
+                Class<?> aClass = Class.forName("com.kodius.konvo.ReactNativeFlipper");
                 aClass
                         .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
                         .invoke(null, context, reactInstanceManager);

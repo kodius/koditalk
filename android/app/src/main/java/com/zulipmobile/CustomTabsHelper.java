@@ -1,4 +1,4 @@
-package com.zulipmobile;
+package com.kodius.konvo;
 
 import android.content.Context;
 import android.content.Intent;

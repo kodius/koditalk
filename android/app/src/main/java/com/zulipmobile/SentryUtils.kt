@@ -1,4 +1,4 @@
-package com.zulipmobile
+package com.kodius.konvo
 
 import io.sentry.Sentry
 import io.sentry.SentryLevel

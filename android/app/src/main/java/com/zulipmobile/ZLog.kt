@@ -1,4 +1,4 @@
-package com.zulipmobile
+package com.kodius.konvo
 
 import android.util.Log
 import io.sentry.Sentry

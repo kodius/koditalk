@@ -1,4 +1,4 @@
-package com.zulipmobile;
+package com.kodius.konvo;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

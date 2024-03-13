@@ -1,4 +1,4 @@
-package com.zulipmobile.notifications
+package com.kodius.konvo.notifications
 
 import com.google.common.truth.Expect
 import org.junit.Rule
