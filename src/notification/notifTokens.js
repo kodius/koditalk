@@ -37,8 +37,13 @@ import * as logging from '../utils/logging';
 export const androidGetToken =
   (): GlobalThunkAction<Promise<mixed>> => async (dispatch, getState) => {
     try {
-      return await NativeModules.Notifications.getToken();
+      console.log('KUUUUUUUUUUURCINA');
+      const res = await NativeModules.Notifications.getToken();
+      console.log('KUUUUUUUUUUURCINA');
+      console.log('ressssssssssssss', res);
+      return res;
     } catch (e) {
+      console.log('error', e);
       // `getToken` failed.  That happens sometimes, apparently including
       // due to network errors: see #5061.  In that case all will be well
       // if the user later launches the app while on a working network.
@@ -57,6 +62,7 @@ export const androidGetToken =
         logging.error(`notif: getToken failed, seems persistent: ${e.message}`);
       }
 
+      console.log('ktia');
       return null;
     }
   };
@@ -249,7 +255,7 @@ export const handleDeviceToken =
     // unspecified) flavor of string.
     if (deviceToken !== null && typeof deviceToken !== 'string') {
       /* $FlowFixMe[incompatible-type]: `deviceToken` probably _is_
-         JSONable, but we can only hope. */
+               JSONable, but we can only hope. */
       const token: JSONable = deviceToken;
       logging.error('Received invalid device token', { token });
       // Take no further action.
