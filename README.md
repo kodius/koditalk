@@ -5,6 +5,12 @@
 
 ```
 - start app: 
+
+1. start metro 
+
+npx react-native start --reset-cache
+
+2. run app
 ```
 npx react-native run-ios --simulator "iPhone 15 Pro Max"
 ```
